@@ -1,361 +1,795 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Juncao Grass Kenya - Premium Livestock Feed Solution</title>
-  <meta name="description" content="High-quality Juncao grass and Red Napier for livestock in Kenya. Increase milk production by 50% with our nutritious feed. Kshs 20 per piece with nationwide delivery.">
-  <meta name="keywords" content="Juncao grass and Red Napier Kenya, livestock feed, Camel, dairy cattle feed, goat fodder, poultry feed, pig nutrition">
-  <meta name="author" content="Juncao Grass and Red NapierKenya">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juncao Farm Supplies Kenya | Fodder, Fruit Seedlings & Farm Equipment</title>
+<meta name="description" content="Juncao & Red Napier fodder, grafted mango, orange, avocado and pixie seedlings, plus grass cutters and choppers. Delivered to farmers across Kenya and worldwide.">
+<meta name="keywords" content="Juncao grass Kenya, Red Napier, fruit seedlings Kenya, mango seedlings, avocado seedlings, pixie orange seedlings, grass cutter, grass chopper, chaff cutter, dairy feed Kenya">
+<meta name="author" content="Juncao Farm Supplies Kenya">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Work+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <style>
-    :root {
-      --primary-color: #2e7d32;
-      --primary-light: #c8e6c9;
-      --secondary-color: #1b5e20;
-      --accent-color: #25D366;
-      --youtube-red: #FF0000;
-      --text-color: #333;
-      --light-bg: #f5fdf7;
-      --white: #ffffff;
-      --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      --transition: all 0.3s ease;
-    }
+<style>
+  :root{
+    --soil:#21231b;
+    --green:#2f5233;
+    --green-light:#4c7a4f;
+    --green-pale:#e4ecdf;
+    --sage:#eef1e6;
+    --gold:#e7a23d;
+    --gold-dark:#a8701f;
+    --rust:#9c4221;
+    --rust-light:#b5542a;
+    --paper:#fbfaf6;
+    --white:#ffffff;
+    --text:#24261d;
+    --text-soft:#5a5d4e;
+    --line:#dfe2d4;
+    --radius:16px;
+    --radius-sm:10px;
+    --shadow:0 8px 24px rgba(33,35,27,.08);
+    --shadow-hover:0 16px 34px rgba(33,35,27,.16);
+    --font-display:'Bricolage Grotesque', sans-serif;
+    --font-body:'Work Sans', sans-serif;
+    --font-mono:'IBM Plex Mono', monospace;
+    --nav-h:76px;
+  }
 
-    * {margin: 0; padding: 0; box-sizing: border-box;}
-    body {font-family: 'Poppins', sans-serif; line-height: 1.6; color: var(--text-color); background-color: var(--light-bg); overflow-x: hidden;}
+  *{margin:0; padding:0; box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:var(--font-body);
+    color:var(--text);
+    background:var(--paper);
+    line-height:1.6;
+    overflow-x:hidden;
+    font-size:16px;
+  }
+  img{display:block; max-width:100%; height:auto;}
+  a{color:inherit;}
+  section{scroll-margin-top:var(--nav-h);}
+  h1,h2,h3,h4{font-family:var(--font-display); line-height:1.1; letter-spacing:-0.01em;}
+  .container{max-width:1180px; margin:0 auto; padding:0 1.5rem;}
 
-    /* Hero header */
-    header {
-      background: url('images/camels.png') center/cover no-repeat;
-      color: var(--white);
-      text-align: center;
-      padding: 5rem 1rem;
-      position: relative;
-      overflow: hidden;
-    }
-    header::after {
-      content: '';
-      position: absolute;
-      top:0; left:0;
-      width:100%; height:100%;
-      background: rgba(0,0,0,0.4);
-      z-index: 0;
-    }
-    header h1, header p {position: relative; z-index: 1;}
-    header h1 {font-size: 3rem; margin-bottom: 1rem; text-shadow: 2px 2px 8px rgba(0,0,0,0.6);}
-    header p {font-size: 1.3rem; margin-bottom: 0.5rem; opacity: 0.95;}
-    .hero-tagline {font-size: 1.5rem; margin-top: 1rem; font-weight: 500; animation: fadeIn 2s ease-in-out infinite alternate;}
-    
-    @keyframes fadeIn {0% {opacity:0;} 100% {opacity:1;}}
+  a:focus-visible, button:focus-visible{outline:3px solid var(--gold); outline-offset:2px;}
 
-    /* Navigation */
-    nav {background-color: var(--white); box-shadow: var(--shadow); position: sticky; top: 0; z-index: 100; padding: 1rem;}
-    .nav-container {max-width:1200px; margin:0 auto; display:flex; justify-content:center; flex-wrap:wrap; gap:1.5rem;}
-    .nav-links {display:flex; gap:1.5rem; flex-wrap:wrap; justify-content:center;}
-    .nav-links a {color: var(--primary-color); text-decoration:none; font-weight:500; transition: var(--transition); padding:0.5rem 0; position:relative;}
-    .nav-links a::after {content:''; position:absolute; bottom:0; left:0; width:0; height:2px; background-color: var(--primary-color); transition: var(--transition);}
-    .nav-links a:hover::after {width:100%;}
+  /* ---------- Top accent bar ---------- */
+  .accent-bar{height:4px; width:100%; background:linear-gradient(90deg, var(--green) 0 33%, var(--gold) 33% 66%, var(--rust) 66% 100%); position:sticky; top:0; z-index:210;}
 
-    /* Sections & animation */
-    section {padding:4rem 1rem; max-width:1200px; margin:0 auto; text-align:center; opacity:0; transform: translateY(50px); transition: all 0.8s ease;}
-    section.visible {opacity:1; transform: translateY(0);}
-    .section-title {text-align:center; margin-bottom:2rem; color: var(--primary-color); position: relative; display: inline-block;}
-    .section-title::after {content:''; position:absolute; bottom:-10px; left:0; width:100%; height:3px; background: linear-gradient(90deg, var(--primary-color), transparent); border-radius:3px;}
+  /* ---------- Nav ---------- */
+  header.topbar{
+    position:sticky; top:4px; z-index:200;
+    background:rgba(251,250,246,.92);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-row{
+    display:flex; align-items:center; justify-content:space-between;
+    height:var(--nav-h);
+    max-width:1180px; margin:0 auto; padding:0 1.5rem;
+  }
+  .brand{display:flex; align-items:center; gap:.6rem; text-decoration:none;}
+  .brand-mark{
+    width:38px; height:38px; border-radius:8px;
+    background:var(--green);
+    display:flex; align-items:center; justify-content:center;
+    color:var(--white); font-family:var(--font-display); font-weight:800; font-size:1.1rem;
+    flex-shrink:0;
+  }
+  .brand-text{line-height:1.15;}
+  .brand-text .name{font-family:var(--font-display); font-weight:700; font-size:1.05rem; color:var(--soil);}
+  .brand-text .tag{display:block; font-size:.68rem; letter-spacing:.08em; text-transform:uppercase; color:var(--text-soft);}
 
-    .price-container {max-width:600px; margin:0 auto; text-align:center;}
-    .highlight {color: var(--primary-color); font-weight:bold; font-size:1.2rem;}
+  .nav-links{display:flex; align-items:center; gap:1.9rem;}
+  .nav-links a{
+    text-decoration:none; font-weight:500; font-size:.94rem; color:var(--text);
+    position:relative; padding:.35rem 0;
+  }
+  .nav-links a::after{
+    content:''; position:absolute; left:0; bottom:-2px; width:0; height:2px;
+    background:var(--green); transition:width .25s ease;
+  }
+  .nav-links a:hover::after{width:100%;}
+  .nav-cta{
+    display:inline-flex; align-items:center; gap:.4rem;
+    background:var(--green); color:var(--white)!important; text-decoration:none;
+    padding:.6rem 1.1rem; border-radius:100px; font-weight:600; font-size:.88rem;
+    transition:transform .2s ease, box-shadow .2s ease;
+  }
+  .nav-cta:hover{transform:translateY(-2px); box-shadow:var(--shadow-hover);}
 
-    /* Benefits grid */
-    .benefits-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.5rem; margin-top:2rem;}
-    .benefit-card {background-color: var(--white); padding:1.5rem; border-radius:8px; box-shadow: var(--shadow); transition: var(--transition);}
-    .benefit-card:hover {transform: translateY(-5px);}
-    .benefit-icon {font-size:2.5rem; color: var(--primary-color); margin-bottom:1rem;}
-    .benefit-card h3 {color: var(--primary-color); margin-bottom:0.5rem;}
+  .hamburger{display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:.5rem;}
+  .hamburger span{width:24px; height:2px; background:var(--soil); border-radius:2px; transition:all .25s ease;}
+  .hamburger[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+  .hamburger[aria-expanded="true"] span:nth-child(2){opacity:0;}
+  .hamburger[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
 
-    /* Gallery */
-    .gallery {display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.5rem; margin-top:2rem;}
-    .gallery-item {border-radius:8px; overflow:hidden; box-shadow: var(--shadow); transition: var(--transition); background-color: var(--white);}
-    .gallery-item:hover {transform: translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,0.15);}
-    .gallery-img-container {height:200px; overflow:hidden;}
-    .gallery-img {width:100%; height:100%; object-fit:cover; transition: var(--transition);}
-    .gallery-item:hover .gallery-img {transform: scale(1.05);}
-    .animal-label {padding:1rem; text-align:center; font-weight:600; color: var(--primary-color);}
+  .mobile-menu{
+    display:none; flex-direction:column; gap:0;
+    background:var(--paper); border-top:1px solid var(--line);
+    max-height:0; overflow:hidden; transition:max-height .3s ease;
+  }
+  .mobile-menu.open{max-height:520px;}
+  .mobile-menu a{
+    padding:1rem 1.5rem; text-decoration:none; color:var(--text);
+    border-bottom:1px solid var(--line); font-weight:500;
+  }
+  .mobile-menu .nav-cta{margin:1rem 1.5rem; text-align:center; justify-content:center;}
 
-    /* Testimonials */
-    .testimonials-container {display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:2rem; margin-top:2rem;}
-    .testimonial {background-color: var(--white); border-radius:8px; padding:2rem; box-shadow: var(--shadow); position: relative;}
-    .testimonial::before {content:'"'; position:absolute; top:10px; left:20px; font-size:5rem; color: var(--primary-light); font-family: serif; line-height:1; z-index:0;}
-    .testimonial-content {position:relative; z-index:1;}
-    .testimonial-author {display:flex; align-items:center; margin-top:1.5rem; justify-content:center;}
-    .author-img {width:60px; height:60px; border-radius:50%; object-fit:cover; border:3px solid var(--primary-light); margin-right:1rem;}
-    .author-info h4 {color: var(--primary-color); margin-bottom:0.2rem;}
-    .author-info p {font-size:0.9rem; color:#666;}
+  /* ---------- Hero ---------- */
+  .hero{
+    background:var(--green);
+    background-image:
+      repeating-linear-gradient(115deg, rgba(255,255,255,.045) 0 2px, transparent 2px 34px);
+    color:var(--white);
+    position:relative;
+    overflow:hidden;
+  }
+  .hero-inner{
+    max-width:1180px; margin:0 auto; padding:4.5rem 1.5rem 5rem;
+    display:grid; grid-template-columns:1.05fr .95fr; gap:3rem; align-items:center;
+  }
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:.5rem;
+    font-family:var(--font-mono); font-size:.75rem; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--gold);
+  }
+  .eyebrow::before{content:''; width:22px; height:2px; background:var(--gold); display:inline-block;}
+  .hero h1{
+    font-size:clamp(2.1rem, 4.6vw, 3.4rem);
+    font-weight:800; margin:1rem 0 1.2rem;
+  }
+  .hero h1 .g{color:var(--gold);}
+  .hero h1 .w{color:#a9d1ac;}
+  .hero h1 .r{color:#e79a76;}
+  .hero p.lead{font-size:1.08rem; color:#e7ecdf; max-width:46ch; margin-bottom:2rem;}
+  .hero-ctas{display:flex; flex-wrap:wrap; gap:.9rem;}
+  .btn{
+    display:inline-flex; align-items:center; gap:.5rem;
+    padding:.85rem 1.5rem; border-radius:100px; font-weight:600; font-size:.95rem;
+    text-decoration:none; border:2px solid transparent; cursor:pointer;
+    transition:transform .2s ease, box-shadow .2s ease, background .2s ease;
+  }
+  .btn-gold{background:var(--gold); color:var(--soil);}
+  .btn-gold:hover{transform:translateY(-3px); box-shadow:0 10px 22px rgba(231,162,61,.35);}
+  .btn-outline{border-color:rgba(255,255,255,.55); color:var(--white);}
+  .btn-outline:hover{background:rgba(255,255,255,.12); transform:translateY(-3px);}
+  .btn-dark{background:var(--soil); color:var(--white);}
+  .btn-dark:hover{transform:translateY(-3px); box-shadow:var(--shadow-hover);}
 
-    /* Contact */
-    .contact-container {background-color: var(--white); border-radius:8px; padding:2rem; box-shadow: var(--shadow); max-width:800px; margin:0 auto; text-align:center;}
-    .contact-info {margin-bottom:2rem;}
-    .contact-info p {margin-bottom:0.5rem; display:flex; align-items:center; justify-content:center;}
-    .contact-icon {margin-right:0.5rem; color: var(--primary-color);}
-    .whatsapp-button {position: relative; display:inline-flex; align-items:center; justify-content:center; background-color: var(--accent-color); color: var(--white); padding:0.8rem 1.5rem; border-radius:50px; text-decoration:none; font-weight:500; transition: var(--transition);}
-    .whatsapp-button:hover {transform: translateY(-3px); box-shadow:0 6px 15px rgba(37,211,102,0.4);}
+  .hero-collage{position:relative; height:360px;}
+  .hero-collage .card{
+    position:absolute; border-radius:var(--radius); overflow:hidden;
+    box-shadow:0 18px 40px rgba(0,0,0,.35); border:4px solid var(--white);
+    background:var(--sage);
+  }
+  .hero-collage .card img{width:100%; height:100%; object-fit:cover;}
+  .hero-collage .c1{width:58%; height:250px; left:0; top:0; z-index:2;}
+  .hero-collage .c2{width:46%; height:190px; right:0; top:38px; z-index:3;}
+  .hero-collage .c3{width:44%; height:180px; left:12%; bottom:0; z-index:1;}
+  .hero-collage .tag{
+    position:absolute; z-index:4; font-family:var(--font-mono); font-size:.7rem;
+    background:var(--soil); color:var(--white); padding:.3rem .6rem; border-radius:6px;
+    letter-spacing:.05em;
+  }
+  .hero-collage .t1{top:225px; left:8px;}
+  .hero-collage .t2{top:212px; right:8px;}
+  .hero-collage .t3{bottom:8px; left:126px;}
 
-    /* Social links */
-    .social-links {display:flex; justify-content:center; gap:1rem; margin-top:2rem;}
-    .social-link {display:inline-flex; align-items:center; justify-content:center; width:40px; height:40px; background-color: var(--primary-color); color: var(--white); border-radius:50%; transition: var(--transition);}
-    .social-link.youtube {background-color: var(--youtube-red);}
-    .social-link:hover {background-color: var(--secondary-color); transform:translateY(-3px);}
-    .youtube-message {margin-top:0.5rem; font-size:0.9rem; color: var(--text-color);}
+  /* ---------- Department strip ---------- */
+  .dept-strip{padding:3.5rem 0 1rem;}
+  .dept-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1.25rem;}
+  .dept-card{
+    background:var(--white); border-radius:var(--radius); padding:1.7rem;
+    box-shadow:var(--shadow); text-decoration:none; color:var(--text);
+    border-top:4px solid var(--line); transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+    display:block;
+  }
+  .dept-card:hover{transform:translateY(-6px); box-shadow:var(--shadow-hover);}
+  .dept-card .icon{font-size:1.8rem;}
+  .dept-card h3{font-size:1.2rem; margin:.7rem 0 .4rem;}
+  .dept-card p{font-size:.92rem; color:var(--text-soft);}
+  .dept-card--green{border-top-color:var(--green);}
+  .dept-card--gold{border-top-color:var(--gold);}
+  .dept-card--rust{border-top-color:var(--rust);}
 
-    footer {background-color: var(--secondary-color); color: var(--white); text-align:center; padding:2rem 1rem; margin-top:3rem;}
-    .footer-links {display:flex; justify-content:center; flex-wrap:wrap; gap:1.5rem; margin-bottom:1.5rem;}
-    .footer-links a {color: var(--white); text-decoration:none; transition: var(--transition);}
-    .footer-links a:hover {opacity:0.8;}
-    .copyright {opacity:0.8; font-size:0.9rem;}
+  /* ---------- Generic section styles ---------- */
+  .section{padding:5rem 0; opacity:0; transform:translateY(36px); transition:opacity .7s ease, transform .7s ease;}
+  .section.visible{opacity:1; transform:translateY(0);}
+  .section-head{max-width:640px; margin-bottom:2.6rem;}
+  .section-head h2{font-size:clamp(1.7rem,3.4vw,2.4rem); margin:.6rem 0 .8rem;}
+  .section-head p{color:var(--text-soft); font-size:1.02rem;}
+  .eyebrow.green{color:var(--green);}
+  .eyebrow.green::before{background:var(--green);}
+  .eyebrow.gold{color:var(--gold-dark);}
+  .eyebrow.gold::before{background:var(--gold-dark);}
+  .eyebrow.rust{color:var(--rust);}
+  .eyebrow.rust::before{background:var(--rust);}
 
-    /* Scroll-to-top button */
-    #scrollTopBtn {display:none; position:fixed; bottom:40px; right:40px; z-index:999; background-color:var(--primary-color); color:#fff; border:none; outline:none; width:50px; height:50px; border-radius:50%; font-size:22px; cursor:pointer; transition: var(--transition);}
-    #scrollTopBtn:hover {background-color: var(--secondary-color);}
+  .band-green{background:var(--green-pale);}
+  .band-paper{background:var(--paper);}
+  .band-white{background:var(--white);}
 
-    /* Floating WhatsApp */
-    #floatingWhatsapp {position:fixed; bottom:100px; right:40px; z-index:999; background-color: var(--accent-color); color:#fff; width:60px; height:60px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:30px; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.3); transition: var(--transition);}
-    #floatingWhatsapp:hover {transform:translateY(-5px); box-shadow:0 6px 15px rgba(0,0,0,0.4);}
+  /* ---------- Fodder ---------- */
+  .banner-img{border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow); margin-bottom:2.6rem; aspect-ratio:16/6; background:var(--sage);}
+  .banner-img img{width:100%; height:100%; object-fit:cover;}
 
-    /* Responsive */
-    @media(max-width:768px){
-      header h1 {font-size:2rem;}
-      .hero-tagline {font-size:1.2rem;}
-      .nav-container {flex-direction:column; gap:1rem;}
-      section {padding:3rem 1rem;}
-    }
+  .price-box{
+    background:var(--soil); color:var(--white); border-radius:var(--radius);
+    padding:2rem; display:grid; grid-template-columns:auto 1fr; gap:1.5rem 2rem; align-items:center;
+    margin-bottom:2.8rem;
+  }
+  .price-box .amount{font-family:var(--font-mono); font-size:2.2rem; font-weight:600; color:var(--gold);}
+  .price-box .amount span{font-size:1rem; color:#cfd6c4; display:block; font-family:var(--font-body);}
+  .price-box ul{list-style:none; font-size:.92rem; color:#dfe4d4;}
+  .price-box ul li{margin-bottom:.35rem; padding-left:1.1rem; position:relative;}
+  .price-box ul li::before{content:'—'; position:absolute; left:0; color:var(--gold);}
 
-  </style>
+  .benefits-grid, .feed-grid, .seed-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1.25rem;}
+  .benefit-card{
+    background:var(--white); padding:1.6rem; border-radius:var(--radius-sm); box-shadow:var(--shadow);
+    transition:transform .2s ease;
+  }
+  .benefit-card:hover{transform:translateY(-4px);}
+  .benefit-icon{font-size:1.7rem; margin-bottom:.6rem;}
+  .benefit-card h3{font-size:1.02rem; margin-bottom:.35rem;}
+  .benefit-card p{font-size:.88rem; color:var(--text-soft);}
+
+  .feed-grid{grid-template-columns:repeat(4,1fr); margin-top:1rem;}
+  .feed-card{background:var(--white); border-radius:var(--radius-sm); overflow:hidden; box-shadow:var(--shadow); text-align:center;}
+  .feed-card .img-box{aspect-ratio:4/3; background:var(--sage);}
+  .feed-card .img-box img{width:100%; height:100%; object-fit:cover;}
+  .feed-card .label{padding:.9rem; font-weight:600; font-size:.92rem;}
+
+  .subhead{font-size:1.25rem; margin:3rem 0 .3rem;}
+  .subhead-desc{color:var(--text-soft); font-size:.94rem; margin-bottom:1.3rem;}
+
+  /* ---------- Product cards (seedlings / equipment) ---------- */
+  .seed-grid{grid-template-columns:repeat(4,1fr);}
+  .product-card{
+    background:var(--white); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow);
+    display:flex; flex-direction:column; transition:transform .25s ease, box-shadow .25s ease;
+    border-top:4px solid var(--gold);
+  }
+  .product-card:hover{transform:translateY(-6px); box-shadow:var(--shadow-hover);}
+  .product-card .img-box{aspect-ratio:1/1; background:var(--sage);}
+  .product-card .img-box img{width:100%; height:100%; object-fit:cover;}
+  .product-card .body{padding:1.3rem; display:flex; flex-direction:column; gap:.6rem; flex:1;}
+  .product-card h3{font-size:1.08rem;}
+  .product-card p{font-size:.87rem; color:var(--text-soft); flex:1;}
+  .price-tag{font-family:var(--font-mono); font-size:.8rem; color:var(--gold-dark); font-weight:600;}
+  .mini-btn{
+    margin-top:.3rem; display:inline-flex; align-items:center; justify-content:center; gap:.4rem;
+    background:var(--soil); color:var(--white); text-decoration:none; padding:.65rem 1rem;
+    border-radius:100px; font-size:.85rem; font-weight:600; transition:background .2s ease, transform .2s ease;
+  }
+  .mini-btn:hover{background:var(--green); transform:translateY(-2px);}
+
+  /* ---------- Equipment feature cards ---------- */
+  .equip-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:1.6rem;}
+  .equip-card{
+    background:var(--white); border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow);
+    display:grid; grid-template-rows:auto 1fr; border-top:4px solid var(--rust);
+    transition:transform .25s ease, box-shadow .25s ease;
+  }
+  .equip-card:hover{transform:translateY(-6px); box-shadow:var(--shadow-hover);}
+  .equip-card .img-box{aspect-ratio:16/10; background:var(--sage);}
+  .equip-card .img-box img{width:100%; height:100%; object-fit:cover;}
+  .equip-card .body{padding:1.8rem;}
+  .equip-card h3{font-size:1.3rem; margin-bottom:.6rem;}
+  .equip-card p{color:var(--text-soft); font-size:.94rem; margin-bottom:1rem;}
+  .equip-card ul{list-style:none; margin-bottom:1.2rem;}
+  .equip-card ul li{font-size:.88rem; padding-left:1.2rem; position:relative; margin-bottom:.4rem; color:var(--text);}
+  .equip-card ul li::before{content:'✓'; position:absolute; left:0; color:var(--rust); font-weight:700;}
+
+  /* ---------- Testimonials ---------- */
+  .testi-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:1.6rem;}
+  .testimonial{
+    background:var(--white); border-radius:var(--radius); padding:2rem; box-shadow:var(--shadow); position:relative;
+  }
+  .testimonial::before{
+    content:'"'; position:absolute; top:.6rem; left:1.2rem; font-size:4.4rem; font-family:Georgia, serif;
+    color:var(--green-pale); line-height:1; z-index:0;
+  }
+  .testimonial p.quote{position:relative; z-index:1; font-size:.98rem; margin-bottom:1.4rem;}
+  .testimonial-author{display:flex; align-items:center; gap:.9rem; position:relative; z-index:1;}
+  .author-img{width:52px; height:52px; border-radius:50%; object-fit:cover; background:var(--sage); border:2px solid var(--green-pale); flex-shrink:0;}
+  .author-info h4{font-size:.96rem; color:var(--soil);}
+  .author-info span{font-size:.82rem; color:var(--text-soft);}
+  .dept-pill{
+    display:inline-block; font-family:var(--font-mono); font-size:.68rem; letter-spacing:.05em; text-transform:uppercase;
+    padding:.2rem .55rem; border-radius:100px; margin-bottom:.9rem;
+  }
+  .pill-green{background:var(--green-pale); color:var(--green);}
+  .pill-gold{background:#fbe9d0; color:var(--gold-dark);}
+  .pill-rust{background:#f3ddd2; color:var(--rust);}
+
+  /* ---------- Contact ---------- */
+  .contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:2rem; align-items:stretch;}
+  .contact-card{background:var(--white); border-radius:var(--radius); padding:2.2rem; box-shadow:var(--shadow);}
+  .contact-card h3{font-size:1.15rem; margin-bottom:1.2rem;}
+  .contact-line{display:flex; align-items:flex-start; gap:.8rem; margin-bottom:1rem; font-size:.95rem;}
+  .contact-line .ic{font-size:1.1rem; flex-shrink:0;}
+  .contact-line a{text-decoration:none; color:var(--text);}
+  .contact-line a:hover{color:var(--green);}
+  .whatsapp-card{
+    background:var(--green); color:var(--white); border-radius:var(--radius); padding:2.2rem;
+    display:flex; flex-direction:column; justify-content:center; box-shadow:var(--shadow);
+  }
+  .whatsapp-card h3{font-size:1.3rem; margin-bottom:.6rem;}
+  .whatsapp-card p{color:#dbe6d6; font-size:.94rem; margin-bottom:1.5rem;}
+  .social-links{display:flex; gap:.8rem; margin-top:1.3rem;}
+  .social-link{
+    width:40px; height:40px; border-radius:50%; background:var(--sage); color:var(--soil);
+    display:flex; align-items:center; justify-content:center; text-decoration:none; transition:transform .2s ease, background .2s ease;
+  }
+  .social-link.youtube{background:#ffe3e3; color:#d61414;}
+  .social-link:hover{transform:translateY(-3px);}
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--soil); color:#d9dccd; padding:3rem 0 1.6rem; margin-top:2rem;}
+  .footer-grid{display:flex; justify-content:space-between; flex-wrap:wrap; gap:2rem; padding-bottom:2rem; border-bottom:1px solid rgba(255,255,255,.12);}
+  .footer-brand .name{font-family:var(--font-display); font-weight:700; color:var(--white); font-size:1.1rem;}
+  .footer-brand p{font-size:.85rem; max-width:32ch; margin-top:.6rem; color:#b7bba7;}
+  .footer-links{display:flex; gap:2.4rem; flex-wrap:wrap;}
+  .footer-links div h4{font-size:.8rem; text-transform:uppercase; letter-spacing:.08em; color:#8d9179; margin-bottom:.8rem;}
+  .footer-links a{display:block; text-decoration:none; color:#d9dccd; font-size:.9rem; margin-bottom:.55rem;}
+  .footer-links a:hover{color:var(--gold);}
+  .footer-bottom{display:flex; justify-content:space-between; flex-wrap:wrap; gap:.6rem; padding-top:1.4rem; font-size:.82rem; color:#8d9179;}
+  .footer-bottom a{color:#b7bba7; text-decoration:underline;}
+
+  /* ---------- Floating buttons ---------- */
+  #scrollTopBtn{
+    display:none; position:fixed; bottom:36px; right:24px; z-index:999;
+    background:var(--soil); color:var(--white); border:none; width:46px; height:46px; border-radius:50%;
+    font-size:20px; cursor:pointer; box-shadow:var(--shadow-hover);
+  }
+  #floatingWhatsapp{
+    position:fixed; bottom:92px; right:24px; z-index:999; background:#25D366; color:#fff; width:56px; height:56px;
+    border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:28px; text-decoration:none;
+    box-shadow:var(--shadow-hover); transition:transform .2s ease;
+  }
+  #floatingWhatsapp:hover{transform:translateY(-4px);}
+
+  /* ---------- Responsive ---------- */
+  @media(max-width:980px){
+    .hero-inner{grid-template-columns:1fr; gap:2.5rem;}
+    .hero-collage{height:300px; max-width:480px;}
+    .dept-grid{grid-template-columns:1fr; }
+    .benefits-grid{grid-template-columns:repeat(2,1fr);}
+    .feed-grid{grid-template-columns:repeat(2,1fr);}
+    .seed-grid{grid-template-columns:repeat(2,1fr);}
+    .equip-grid{grid-template-columns:1fr;}
+    .testi-grid{grid-template-columns:1fr;}
+    .contact-grid{grid-template-columns:1fr;}
+    .price-box{grid-template-columns:1fr;}
+  }
+  @media(max-width:760px){
+    .nav-links{display:none;}
+    .hamburger{display:flex;}
+    .mobile-menu{display:flex;}
+    .hero-inner{padding:3rem 1.5rem 3.5rem;}
+    .benefits-grid, .feed-grid, .seed-grid{grid-template-columns:1fr 1fr;}
+    #floatingWhatsapp{width:50px; height:50px; font-size:24px; bottom:84px; right:16px;}
+    #scrollTopBtn{width:42px; height:42px; bottom:32px; right:16px;}
+    .footer-grid{flex-direction:column;}
+  }
+  @media(max-width:480px){
+    .benefits-grid, .feed-grid, .seed-grid{grid-template-columns:1fr 1fr;}
+    .hero-collage{height:260px;}
+    .price-box{padding:1.4rem;}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{animation:none!important; transition:none!important;}
+    html{scroll-behavior:auto;}
+  }
+</style>
 </head>
 <body>
 
-  <header id="top">
-    <p class="hero-tagline">Increase Milk Production | Reduce Feed Costs | Grow Year-Round</p>
-  </header>
+<div class="accent-bar"></div>
 
-  <nav>
-    <div class="nav-container">
-      <div class="nav-links">
-        <a href="#why">Why Juncao/Red Napier</a>
-        <a href="#price">Price</a>
-        <a href="#benefits">Benefits</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#testimonials">Testimonials</a>
-        <a href="#contact">Contact</a>
+<header class="topbar">
+  <div class="nav-row">
+    <a href="#top" class="brand">
+      <span class="brand-mark">JN</span>
+      <span class="brand-text">
+        <span class="name">Juncao Farm Supplies</span>
+        <span class="tag">Fodder · Seedlings · Equipment</span>
+      </span>
+    </a>
+    <nav class="nav-links">
+      <a href="#fodder">Fodder</a>
+      <a href="#seedlings">Seedlings</a>
+      <a href="#equipment">Equipment</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+      <a href="https://wa.me/254722440042" class="nav-cta" target="_blank" rel="noopener">💬 WhatsApp</a>
+    </nav>
+    <button class="hamburger" id="hamburgerBtn" aria-expanded="false" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#fodder">Fodder & Grass</a>
+    <a href="#seedlings">Fruit Seedlings</a>
+    <a href="#equipment">Farm Equipment</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+    <a href="https://wa.me/254722440042" class="btn nav-cta" target="_blank" rel="noopener">💬 Order on WhatsApp</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="top" class="hero">
+  <div class="hero-inner">
+    <div>
+      <span class="eyebrow" style="color:#bcd6ba;">Kenya · Nationwide & Export Delivery</span>
+      <h1>Grow more.<br><span class="g">Feed better.</span><br><span class="r">Work smarter.</span></h1>
+      <p class="lead">Juncao & Red Napier fodder, grafted fruit seedlings, and the grass-cutting equipment to keep it all running — sourced and delivered to farmers across Kenya and beyond.</p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/254722440042?text=Hi%2C%20I%27d%20like%20to%20place%20an%20order." class="btn btn-gold" target="_blank" rel="noopener">💬 Order on WhatsApp</a>
+        <a href="tel:+254722440042" class="btn btn-outline">📞 Call +254 722 440 042</a>
       </div>
     </div>
-  </nav>
-
-  <!-- Why section -->
-  <section id="why">
-    <h2 class="section-title">Why Choose Juncao/Red Napier Grass?</h2>
-    <div style="max-width:800px; margin:0 auto;">
-      <p style="margin-bottom:1rem;">
-        Juncao and Red Napier grass are revolutionizing livestock farming across the world with its exceptional nutritional value and adaptability. 
-        Developed through extensive research, our grass variety thrives in diverse climatic conditions, from arid regions to highlands.
-      </p>
-      <p>
-        Unlike traditional fodder, Juncao and Red Napier grass provides a complete nutritional package that enhances animal health, boosts productivity, 
-        and significantly reduces your feeding costs. It's the smart choice for modern farmers looking to maximize their returns.
-        <span style="color: green; font-weight: bold;">1 Acre= 5000 to 7000 seedlings. Spacing of 50cm X 50 cm</span>
-      </p>
+    <div class="hero-collage">
+      <div class="card c1"><img src="images/cows.png" alt="Dairy cows feeding on Napier grass"></div>
+      <div class="card c2"><img src="images/mango.png" alt="Grafted mango seedling"></div>
+      <div class="card c3"><img src="images/grass chopper.png" alt="Grass chopper machine"></div>
+      <span class="tag t1">Fodder</span>
+      <span class="tag t2">Seedlings</span>
+      <span class="tag t3">Equipment</span>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Price section -->
-  <section id="price">
-    <h2 class="section-title">Our Pricing</h2>
-    <div class="price-container">
-      <p><strong class="highlight">Kshs 20 per piece</strong></p>
-      <p>Delivery available WorldWide. Beyond our borders, we have successfully exported Juncao and Red Napier to multiple nations and continents around the globe.</p>
-      <p>Bulk discounts available for orders above 5000 pieces</p>
+<!-- DEPARTMENT STRIP -->
+<section class="dept-strip band-paper">
+  <div class="container">
+    <div class="dept-grid">
+      <a href="#fodder" class="dept-card dept-card--green">
+        <span class="icon">🌾</span>
+        <h3>Fodder & Grass</h3>
+        <p>Juncao & Red Napier grass to boost milk, weight gain and herd health.</p>
+      </a>
+      <a href="#seedlings" class="dept-card dept-card--gold">
+        <span class="icon">🌳</span>
+        <h3>Fruit Seedlings</h3>
+        <p>Grafted mango, orange, avocado & pixie trees, ready to plant.</p>
+      </a>
+      <a href="#equipment" class="dept-card dept-card--rust">
+        <span class="icon">⚙️</span>
+        <h3>Farm Equipment</h3>
+        <p>Grass cutters and choppers built for daily work on Kenyan farms.</p>
+      </a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Benefits section -->
-  <section id="benefits">
-    <h2 class="section-title">Key Benefits</h2>
+<!-- FODDER -->
+<section id="fodder" class="section band-paper">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow green">Fodder & Grass</span>
+      <h2>Juncao & Red Napier Grass</h2>
+      <p>A complete nutritional package that thrives from arid regions to highlands. Unlike traditional fodder, it boosts animal health and productivity while cutting your feeding costs.</p>
+    </div>
+
+    <div class="banner-img">
+      <img src="images/havest.png" alt="Field of Juncao and Red Napier grass ready for harvest">
+    </div>
+
+    <div class="price-box">
+      <div class="amount">Kshs 20 <span>per seedling</span></div>
+      <ul>
+        <li>1 acre = 5,000–7,000 seedlings, spaced 50cm x 50cm</li>
+        <li>Bulk discounts on orders above 5,000 pieces</li>
+        <li>Nationwide delivery, with export experience worldwide</li>
+      </ul>
+    </div>
+
     <div class="benefits-grid">
       <div class="benefit-card">
         <div class="benefit-icon">📈</div>
         <h3>Increased Milk Production</h3>
-        <p>Documented cases show up to 50% increase in milk yield when dairy cattle are fed with Juncao grass regularly.</p>
+        <p>Documented cases show up to 50% higher milk yield with regular feeding.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-icon">💰</div>
         <h3>Cost Effective</h3>
-        <p>At just Kshs 20 per piece, our grass reduces your feed costs by up to 60% compared to commercial feeds.</p>
+        <p>Cuts feed costs by up to 60% compared to commercial feeds.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-icon">🌱</div>
         <h3>High Nutritional Value</h3>
-        <p>Contains 18% digestible protein and essential minerals that promote animal health and growth.</p>
+        <p>Around 18% digestible protein plus essential minerals.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-icon">🌧️</div>
         <h3>Drought Resistant</h3>
-        <p>Thrives with minimal water, making it perfect for Kenya's varied climate conditions.</p>
+        <p>Thrives on minimal water across Kenya's varied climates.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-icon">🔄</div>
         <h3>Rapid Regrowth</h3>
-        <p>Harvest every 6-8 weeks with yields up to 180 tons per acre annually.</p>
+        <p>Harvest every 6–8 weeks, up to 180 tons per acre annually.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-icon">🌍</div>
         <h3>Eco-Friendly</h3>
-        <p>Improves soil quality and prevents erosion while requiring no chemical fertilizers.</p>
+        <p>Improves soil quality and prevents erosion, no chemical fertilizer needed.</p>
       </div>
     </div>
-  </section>
 
-  <!-- Gallery section -->
-  <section id="gallery">
-    <h2 class="section-title">Our Gallery</h2>
-    <div class="gallery">
-      <div class="gallery-item">
-        <div class="gallery-img-container">
-          <img src="images/cows feeding.png" alt="Cows feeding on Juncao and Red Napier grass" class="gallery-img">
-        </div>
-        <div class="animal-label">Dairy Cows</div>
+    <h3 class="subhead">Who feeds on it</h3>
+    <p class="subhead-desc">From dairy herds to backyard pigs — one grass, every kind of livestock.</p>
+    <div class="feed-grid">
+      <div class="feed-card">
+        <div class="img-box"><img src="images/cows.png" alt="Dairy cows feeding"></div>
+        <div class="label">Dairy Cows</div>
       </div>
-      <div class="gallery-item">
-        <div class="gallery-img-container">
-          <img src="images/goat feeding.png" alt="Goats enjoying Juncao and Red Napier grass" class="gallery-img">
-        </div>
-        <div class="animal-label">Goats</div>
+      <div class="feed-card">
+        <div class="img-box"><img src="images/goats.png" alt="Goats feeding"></div>
+        <div class="label">Goats</div>
       </div>
-      <div class="gallery-item">
-        <div class="gallery-img-container">
-          <img src="images/camels.png" alt="Camels enjoying Juncao and Red Napier grass" class="gallery-img">
-        </div>
-        <div class="animal-label">Camels</div>
+      <div class="feed-card">
+        <div class="img-box"><img src="images/camels.png" alt="Camels feeding"></div>
+        <div class="label">Camels</div>
       </div>
-      <div class="gallery-item">
-        <div class="gallery-img-container">
-          <img src="images/pigs eating.png" alt="Pigs feeding on Juncao and Red Napier" class="gallery-img">
-        </div>
-        <div class="animal-label">Pigs</div>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-img-container">
-          <img src="images/Livestock Feeding.png" alt="Various livestock feeding together" class="gallery-img">
-        </div>
-        <div class="animal-label">Mixed Livestock</div>
-      </div>
-      <div class="gallery-item">
-        <div class="gallery-img-container">
-          <img src="images/havest.png" alt="Fresh Juncao and Red Napier grass ready for harvest" class="gallery-img">
-        </div>
-        <div class="animal-label">Fresh Harvest</div>
+      <div class="feed-card">
+        <div class="img-box"><img src="images/pigs.png" alt="Pigs feeding"></div>
+        <div class="label">Pigs</div>
       </div>
     </div>
-  </section>
 
-  <!-- Testimonials -->
-  <section id="testimonials">
-    <h2 class="section-title">Farmer Testimonials</h2>
-    <div class="testimonials-container">
-      <div class="testimonial">
-        <div class="testimonial-content">
-          <p>"Since switching to Juncao and Red Napier grass, my dairy cows' milk production increased from 12 to 18 liters per day. The quality is better too, and my buyers have noticed the difference!"</p>
-          <div class="testimonial-author">
-            <img src="images/cow farmer.png" alt="Mary profile" class="author-img">
-            <div class="author-info">
-              <h4>Mary</h4>
-              <p>Dairy Farmer, Nakuru</p>
-            </div>
-          </div>
+    <div style="margin-top:2.4rem;">
+      <a href="https://wa.me/254722440042?text=Hi%2C%20I%27d%20like%20to%20order%20Juncao%20%26%20Red%20Napier%20grass." class="btn btn-dark" target="_blank" rel="noopener">💬 Order Juncao & Red Napier</a>
+    </div>
+  </div>
+</section>
+
+<!-- SEEDLINGS -->
+<section id="seedlings" class="section band-green">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow gold">Fruit Seedlings</span>
+      <h2>Grafted Fruit Tree Seedlings</h2>
+      <p>Healthy, grafted seedlings raised for faster fruiting, strong disease resistance and varieties farmers can actually sell. Ready to plant on your shamba or orchard.</p>
+    </div>
+
+    <div class="banner-img">
+      <img src="images/pixie.png" alt="Grafted fruit seedlings in a nursery">
+    </div>
+
+    <div class="seed-grid">
+      <div class="product-card">
+        <div class="img-box"><img src="images/mango.png" alt="Grafted mango seedling"></div>
+        <div class="body">
+          <h3>🥭 Mango</h3>
+          <p>Grafted mango seedlings from proven varieties, bred for strong yields and reliable market demand.</p>
+          <span class="price-tag">Price on request</span>
+          <a href="https://wa.me/254722440042?text=Hi%2C%20I%27m%20interested%20in%20Mango%20seedlings.%20Please%20share%20pricing%20and%20availability." class="mini-btn" target="_blank" rel="noopener">Ask on WhatsApp</a>
         </div>
       </div>
-      <div class="testimonial">
-        <div class="testimonial-content">
-          <p>"I was skeptical at first, but after 3 months of feeding my camels and goats with Juncao and Red Napier, their weight gain improved by 30%. Now all my neighbors want to know my secret!"</p>
-          <div class="testimonial-author">
-            <img src="images/goat farmer.png" alt="James profile" class="author-img">
-            <div class="author-info">
-              <h4>Abdi</h4>
-              <p>Goat Farmer, Mandera</p>
-            </div>
-          </div>
+      <div class="product-card">
+        <div class="img-box"><img src="images/orange.png" alt="Grafted orange seedling"></div>
+        <div class="body">
+          <h3>🍊 Oranges</h3>
+          <p>Grafted orange seedlings that establish quickly and produce juicy, market-ready fruit.</p>
+          <span class="price-tag">Price on request</span>
+          <a href="https://wa.me/254722440042?text=Hi%2C%20I%27m%20interested%20in%20Orange%20seedlings.%20Please%20share%20pricing%20and%20availability." class="mini-btn" target="_blank" rel="noopener">Ask on WhatsApp</a>
         </div>
       </div>
-      <div class="testimonial">
-        <div class="testimonial-content">
-          <p>"As a poultry farmer, I've reduced my feed costs by half while getting bigger eggs and healthier chickens. Juncao and Red Napier grass has transformed my business completely."</p>
-          <div class="testimonial-author">
-            <img src="images/chicken farmer.png" alt="Amina profile" class="author-img">
-            <div class="author-info">
-              <h4>Amina</h4>
-              <p>Poultry Farmer, Western</p>
-            </div>
-          </div>
+      <div class="product-card">
+        <div class="img-box"><img src="images/avocados.png" alt="Grafted avocado seedling"></div>
+        <div class="body">
+          <h3>🥑 Avocado</h3>
+          <p>Grafted avocado seedlings, including export-favoured varieties, suited to Kenya's highland and mid-altitude farms.</p>
+          <span class="price-tag">Price on request</span>
+          <a href="https://wa.me/254722440042?text=Hi%2C%20I%27m%20interested%20in%20Avocado%20seedlings.%20Please%20share%20pricing%20and%20availability." class="mini-btn" target="_blank" rel="noopener">Ask on WhatsApp</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="img-box"><img src="images/pixie.png" alt="Grafted pixie orange seedling"></div>
+        <div class="body">
+          <h3>🍊 Pixie</h3>
+          <p>Grafted pixie seedlings — an easy-peel, seedless citrus variety popular with local and export buyers.</p>
+          <span class="price-tag">Price on request</span>
+          <a href="https://wa.me/254722440042?text=Hi%2C%20I%27m%20interested%20in%20Pixie%20seedlings.%20Please%20share%20pricing%20and%20availability." class="mini-btn" target="_blank" rel="noopener">Ask on WhatsApp</a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Contact -->
-  <section id="contact">
-    <h2 class="section-title">Get In Touch</h2>
-    <div class="contact-container">
-      <div class="contact-info">
-        <p><span class="contact-icon">📍</span> <strong>Location:</strong> Nairobi, Kenya (Worldwide Delivery Available)</p>
-        <p><span class="contact-icon">📞</span> <strong>Phone:</strong> <a href="tel:+254722440042">+254 722 440 042</a></p>
-        <p><span class="contact-icon">✉️</span> <strong>Email:</strong> <a href="mailto:jsila2050@gmail.com">jsila2050@gmail.com</a></p>
+<!-- EQUIPMENT -->
+<section id="equipment" class="section band-paper">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow rust">Farm Equipment</span>
+      <h2>Tools to Work Your Land</h2>
+      <p>Reliable machines to cut and chop fodder faster, so less of your day goes to hand tools and more goes to running the farm.</p>
+    </div>
+
+    <div class="equip-grid">
+      <div class="equip-card">
+        <div class="img-box"><img src="images/grass cutter.png" alt="Grass cutter machine"></div>
+        <div class="body">
+          <h3>✂️ Grass Cutter</h3>
+          <p>A dependable cutter for clearing and harvesting Juncao & Red Napier plots, sized for daily farm use.</p>
+          <ul>
+            <li>Built for regular use on grass plots</li>
+            <li>Cuts harvest time compared to manual slashing</li>
+            <li>Easy to maintain in the field</li>
+          </ul>
+          <a href="https://wa.me/254722440042?text=Hi%2C%20I%27m%20interested%20in%20the%20Grass%20Cutter.%20Please%20share%20full%20specs%20and%20pricing." class="mini-btn" target="_blank" rel="noopener">Ask for specs & pricing</a>
+        </div>
       </div>
-      <a href="https://wa.me/254722440042" class="whatsapp-button" target="_blank">
-        <span class="whatsapp-icon">💬</span> Chat on WhatsApp
-      </a>
-      <div style="text-align:center; margin-top:1.5rem;">
+      <div class="equip-card">
+        <div class="img-box"><img src="images/grass chopper.png" alt="Grass chopper machine"></div>
+        <div class="body">
+          <h3>⚙️ Grass Chopper</h3>
+          <p>Chops Juncao & Red Napier into smaller pieces, making it easier for livestock to eat and reducing waste at the trough.</p>
+          <ul>
+            <li>Improves feed digestibility</li>
+            <li>Cuts down on feed wastage</li>
+            <li>Suited to daily fodder preparation</li>
+          </ul>
+          <a href="https://wa.me/254722440042?text=Hi%2C%20I%27m%20interested%20in%20the%20Grass%20Chopper.%20Please%20share%20full%20specs%20and%20pricing." class="mini-btn" target="_blank" rel="noopener">Ask for specs & pricing</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" class="section band-white">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow green">Testimonials</span>
+      <h2>Farmers Who Made the Switch</h2>
+      <p>Real results from real shambas, across fodder, seedlings and equipment.</p>
+    </div>
+    <div class="testi-grid">
+      <div class="testimonial">
+        <span class="dept-pill pill-green">Fodder</span>
+        <p class="quote">Since switching to Juncao and Red Napier grass, my dairy cows' milk production increased from 12 to 18 litres per day. My buyers have noticed the difference.</p>
+        <div class="testimonial-author">
+          <img src="images/cow farmer.png" alt="Mary" class="author-img">
+          <div class="author-info"><h4>Mary</h4><span>Dairy Farmer, Nakuru</span></div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <span class="dept-pill pill-green">Fodder</span>
+        <p class="quote">I was skeptical at first, but after 3 months of feeding my camels and goats with Juncao and Red Napier, their weight gain improved noticeably. Now my neighbours want to know the secret.</p>
+        <div class="testimonial-author">
+          <img src="images/goat farmer.png" alt="Abdi" class="author-img">
+          <div class="author-info"><h4>Abdi</h4><span>Goat & Camel Farmer, Mandera</span></div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <span class="dept-pill pill-gold">Seedlings</span>
+        <p class="quote">The grafted mango and avocado seedlings established fast and are already looking strong. Good communication and delivery right to my farm in Murang'a.</p>
+        <div class="testimonial-author">
+          <img src="images/esther.png" alt="Esther" class="author-img">
+          <div class="author-info"><h4>Esther</h4><span>Orchard Farmer, Murang'a</span></div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <span class="dept-pill pill-rust">Equipment</span>
+        <p class="quote">The grass chopper has cut down the hours I used to spend preparing fodder by hand. My livestock also waste a lot less feed now that it's chopped.</p>
+        <div class="testimonial-author">
+          <img src="images/peter.png" alt="Peter" class="author-img">
+          <div class="author-info"><h4>Peter</h4><span>Livestock Farmer, Kiambu</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section band-green">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow green">Contact</span>
+      <h2>Get In Touch</h2>
+      <p>Fodder, seedlings or equipment — reach out and we'll get you sorted.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Details</h3>
+        <div class="contact-line"><span class="ic">📍</span><span><strong>Location:</strong> Nairobi, Kenya — nationwide & worldwide delivery available</span></div>
+        <div class="contact-line"><span class="ic">📞</span><a href="tel:+254722440042"><strong>Phone:</strong> +254 722 440 042</a></div>
+        <div class="contact-line"><span class="ic">✉️</span><a href="mailto:jsila2050@gmail.com"><strong>Email:</strong> jsila2050@gmail.com</a></div>
         <div class="social-links">
-          <a href="https://youtu.be/Mgyg6meMCfw?si=QONVtJTB0hOeohUS" class="social-link youtube" target="_blank" title="Watch our videos">▶️</a>
+          <a href="https://youtu.be/Mgyg6meMCfw?si=QONVtJTB0hOeohUS" class="social-link youtube" target="_blank" rel="noopener" title="Watch our videos">▶️</a>
         </div>
-        <p class="youtube-message">Watch our farming tutorials - Click the red icon above</p>
+      </div>
+      <div class="whatsapp-card">
+        <h3>💬 Fastest way to order</h3>
+        <p>Message us on WhatsApp with what you need — fodder, seedlings or equipment — and we'll reply with pricing and delivery options.</p>
+        <a href="https://wa.me/254722440042" class="btn btn-gold" target="_blank" rel="noopener">Chat on WhatsApp</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer-links">
-      <a href="#why">About Juncao</a>
-      <a href="#benefits">Benefits</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Contact</a>
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="name">Juncao Farm Supplies</span>
+        <p>Fodder, grafted fruit seedlings and farm equipment, delivered to farmers across Kenya and worldwide.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Shop</h4>
+          <a href="#fodder">Fodder & Grass</a>
+          <a href="#seedlings">Fruit Seedlings</a>
+          <a href="#equipment">Farm Equipment</a>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h4>Reach us</h4>
+          <a href="tel:+254722440042">+254 722 440 042</a>
+          <a href="mailto:jsila2050@gmail.com">jsila2050@gmail.com</a>
+        </div>
+      </div>
     </div>
-    <p class="copyright">&copy; 2025 Juncao and Red Napier Grass Kenya. All rights reserved.</p>
-    <p class="copyright">Website by <a href="https://www.linkedin.com/in/divine-mutongoi-762a1b249/" target="_blank" style="color: #a5d6a7; text-decoration: underline;">divine-mutongoi</a></p>
-  </footer>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Juncao Farm Supplies Kenya. All rights reserved.</span>
+      <span>Website by <a href="https://www.linkedin.com/in/divine-mutongoi-762a1b249/" target="_blank" rel="noopener">divine-mutongoi</a></span>
+    </div>
+  </div>
+</footer>
 
-  <!-- Floating buttons -->
-  <button id="scrollTopBtn" title="Go to top">↑</button>
-  <a href="https://wa.me/254722440042" target="_blank" id="floatingWhatsapp">💬</a>
+<button id="scrollTopBtn" title="Go to top" aria-label="Scroll to top">↑</button>
+<a href="https://wa.me/254722440042" target="_blank" rel="noopener" id="floatingWhatsapp" aria-label="Chat on WhatsApp">💬</a>
 
-  <script>
-    // Scroll-to-top
-    const scrollBtn = document.getElementById("scrollTopBtn");
-    window.onscroll = function() {
-      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        scrollBtn.style.display = "block";
-      } else {
-        scrollBtn.style.display = "none";
-      }
+<script>
+  // Mobile menu toggle
+  const hamburger = document.getElementById('hamburgerBtn');
+  const mobileMenu = document.getElementById('mobileMenu');
+  hamburger.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.toggle('open');
+    hamburger.setAttribute('aria-expanded', isOpen);
+  });
+  mobileMenu.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => {
+      mobileMenu.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+    });
+  });
 
-      // reveal sections
-      document.querySelectorAll("section").forEach(sec=>{
-        const top = sec.getBoundingClientRect().top;
-        if(top < window.innerHeight - 50) sec.classList.add("visible");
+  // Scroll-to-top button
+  const scrollBtn = document.getElementById('scrollTopBtn');
+  window.addEventListener('scroll', () => {
+    scrollBtn.style.display = (window.scrollY > 300) ? 'block' : 'none';
+  });
+  scrollBtn.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+
+  // Reveal sections on scroll
+  const sections = document.querySelectorAll('.section');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          io.unobserve(entry.target);
+        }
       });
-    };
-    scrollBtn.onclick = () => {window.scrollTo({top:0, behavior:'smooth'});};
-  </script>
+    }, {threshold: 0.12});
+    sections.forEach(sec => io.observe(sec));
+  } else {
+    sections.forEach(sec => sec.classList.add('visible'));
+  }
+</script>
 </body>
 </html>
